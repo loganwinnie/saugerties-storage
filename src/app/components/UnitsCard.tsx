@@ -1,6 +1,6 @@
 import React, { JSXElementConstructor } from 'react'
-import RentNow from './RentNow'
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Params {
     unit : {
@@ -29,11 +29,11 @@ function UnitsCard({unit}: Params) {
   return (
     <div>
         <h1>{unit.type}</h1>
-        <Image src={unit.image} alt={`${unit.type} image`}/>
+        <Image width={150} height={150} src={unit.image} alt={`${unit.type} image`}/>
         <h2>Available</h2>
         <h3>{unit.available}</h3>
         <p>{unit.description}</p>
-        <RentNow/>
+        <Link href={"/rent"}>Rent</Link>
         <h2>{unit.price}</h2>
     </div>
   )
