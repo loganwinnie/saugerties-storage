@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 function NavBar() {
   return (
-    <div className='flex justify-between '>
+    <div className='flex justify-between bg'>
         <div>
         <a href="/#hero-section">
               <Image src="./TextMark.svg" width="80" height="80" alt="Saugerties Self Storage Logo" />
