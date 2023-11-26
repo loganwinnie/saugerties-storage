@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import UnitWarning from '../components/UnitWarning'
 
-function page() {
+function Rent() {
     const [open, setOpen] = useState(true)
 
     function close() {
@@ -16,4 +16,4 @@ function page() {
   )
 }
 
-export default page
+export default Rent
