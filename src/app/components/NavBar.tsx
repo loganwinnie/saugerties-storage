@@ -8,7 +8,8 @@ import { IoMenu, IoClose } from "react-icons/io5";
 function NavBar() {
   let width : boolean
   const [open , setOpen] = useState<boolean>(false)
-  const [clickable, setClickable] = useState(width)
+const [clickable, setClickable] = useState(width || false)
+
   useEffect(() => {
     function resize() {
         if (typeof window !== "undefined") {
