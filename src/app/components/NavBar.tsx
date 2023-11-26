@@ -1,5 +1,5 @@
 'use client'
-import React, { use, useEffect, useState } from 'react';
+import React, { use, useEffect, useState,  } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { IoMenu, IoClose } from "react-icons/io5";
@@ -11,16 +11,15 @@ function NavBar() {
 
   useEffect(() => {
     function resize() {
-      setClickable(window.innerWidth < 768)
       if(window.innerWidth < 768 )
        setClickable(true)
       else {
         setClickable(false)
       }
     }
-
     window.addEventListener('resize', resize)
   }, [setOpen])
+
 
   return (
     <header onClick={()=>clickable ? setOpen(o => !o) : false}  className={`nav-bar sticky top-0 z-20 bg-neutral-100 flex justify-between items-center px-[4%]  ${clickable ? "cursor-pointer" : ""} `}>
@@ -41,23 +40,7 @@ function NavBar() {
 
     </header>
   );
-      // <div>
-      //   <a href="/#hero-section">
-      //     <Image className='block'src="./TextMark.svg" width="80" height="200" alt="Saugerties Self Storage Logo" />
-      //   </a>
-      // </div>
-      // <IoMenu className="md:hidden inline h-6 w-6 cursor-pointer" />
 
-      // <div className={`grow pt-3 lg:w-full md:flex ${open ? "flex flex-col" : "hidden"} w-auto justify-between items-center`}>
-      //   <div className={`flex ${open ? "flex-col" : ""} grow justify-center space-x-4`}>
-      //     <Link className="block" href="/#hero-section" >Home</Link>
-      //     <Link href="/#unit-section" >Units</Link>
-      //     <Link href="/#location-section" >Find Us</Link>
-      //   </div>
-      //   <div className='border-2 px-2 py-2 rounded-full border-emerald-500 hover:bg-neutral-100'>
-      //     <Link href="/rent">Rent Now</Link>
-      //   </div>
-      // </div>
 }
 
 export default NavBar;
