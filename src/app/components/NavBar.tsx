@@ -6,11 +6,15 @@ import { IoMenu, IoClose } from "react-icons/io5";
 
 
 function NavBar() {
+  let width : boolean
   const [open , setOpen] = useState<boolean>(false)
-  const [clickable, setClickable] = useState(window.innerWidth < 768)
+  const [clickable, setClickable] = useState(width)
   useEffect(() => {
     function resize() {
-      if(window.innerWidth < 768 )
+        if (typeof window !== "undefined") {
+          width =  window.innerWidth < 768
+         }
+      if(width)
        setClickable(true)
       else {
         setClickable(false)
