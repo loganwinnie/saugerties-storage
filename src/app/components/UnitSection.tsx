@@ -5,10 +5,10 @@ const UnitSection = async () => {
 
   return (
 
-    <div className='text-center my-16 mb-10 text-zinc-100'>
+    <div className='text-center my-20 md:my-16 mb-10 text-zinc-100 '>
       <h1 className='text-4xl font-medium pb-4'>Units</h1>
       <hr className='h-px bg-slate-300 mb-3' />
-      <div id='unit-section' className='w-full flex flex-grow gap-16 justify-center px-10 text-zinc-900'>
+      <div id='unit-section' className='w-full flex flex-col md:flex-row flex-grow gap-16 justify-center px-10 text-zinc-900'>
         <UnitsCard unit={{
           type: "5x10",
           description: "The perfect budget friendly choice for a mid-sized storage solution. Whether you need to store furniture during a home renovation, seasonal items, business inventory, or personal belongings, our 5x10 unit provides the versatility you require. It's an excellent option for both short-term and long-term storage needs.",

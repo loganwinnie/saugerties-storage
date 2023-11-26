@@ -23,7 +23,7 @@ function NavBar() {
   return (
     <header onClick={()=>clickable ? setOpen(o => !o) : false}  className={`nav-bar sticky top-0 z-20 bg-neutral-100 flex justify-between items-center px-[4%]  ${clickable ? "cursor-pointer" : ""} `}>
       <a href="/#hero-section">
-        <Image className='block' src="./TextMark.svg" width="90" height="100" alt="Saugerties Self Storage Logo" />
+        <Image className='block' src="./TextMark.svg" width="90" height="100" alt=" Logo" />
       </a>
 
       <nav  className={` ${open ? "block " : "hidden" } bg-neutral-100 md:flex justify-center items-center `}>

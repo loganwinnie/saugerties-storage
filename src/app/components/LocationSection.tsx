@@ -3,10 +3,10 @@ import LocationCard from './LocationCard';
 
 function LocationSection() {
   return (
-    <div className='text-center my-16'>
+    <div className='text-center my-16 md:mx-0 mx-4'>
       <h1 className='text-4xl font-medium pb-4 text-zinc-100'>Find Us</h1>
       <hr className='h-px bg-slate-300 mb-3' />
-      <div id='location-section' className='w-full flex flex-grow gap-16 justify-center'>
+      <div id='location-section' className='w-full flex flex-col md:flex-row flex-grow gap-16 justify-center '>
         <div className='min-w-sm max-w-lg'>
           <LocationCard
             placeId="ChIJu-UiLl2n3YkRaJYmcWtsOGQ"

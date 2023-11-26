@@ -7,7 +7,7 @@ interface ParamsInterface{
 
 function UnitWarning({ close }: ParamsInterface) {
   return (
-    <div className='p-10 mt-5 absolute bg-neutral-100 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex  flex-col border-2 drop-shadow-xl'>
+    <div className='p-10 mt-20 md:mt-5 absolute bg-neutral-100 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex  flex-col border-2 drop-shadow-xl'>
         <p className='text-center text-3xl pb-8 font-semibold'>Just a Quick Notice</p>
         <p className='text-center text-xl pb-8 font-medium'>Our units are now split between 2 locations</p>
         <p className='text-center text-xl '>Units 1 through 300 are located at 9w.</p>
