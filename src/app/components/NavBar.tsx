@@ -37,7 +37,7 @@ function NavBar() {
         </ul>
       </nav>
 
-      <IoMenu className={`${!clickable ? "invisible" : "block"} ${window.innerWidth < 768  ? "invisible" : "block"} ${open ? "hidden" : "block"} pointer-events-none`} /> <IoClose className={`${open ? "block" : "hidden"}  pointer-events-none w-6 h-6`} />
+      <IoMenu className={`${!clickable ? "invisible" : "block"} md:invisible ${open ? "hidden" : "block"} pointer-events-none`} /> <IoClose className={`${open ? "block" : "hidden"}  pointer-events-none w-6 h-6`} />
 
     </header>
   );
