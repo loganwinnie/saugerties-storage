@@ -21,16 +21,16 @@ function HeroSection() {
                 Find affordable storage here
               </h1>
               <br />
-              <h3 className="text-center text-2xl mb-1">Rent By Phone:</h3>
+              <h3 className="text-center font-semibold text-2xl mb-1">Rent By Phone:</h3>
               <a
-                className="text-center text-2xl font-medium text-emerald-900"
+                className="text-center text-2xl font-medium text-[#394EA1]"
                 href="tel:+1-845-594-4064"
               >
                 <h2>(845) 594-4064</h2>
               </a>
             </div>
           </div>
-          <h3 className="text-center text-2xl">Or Online:</h3>
+          <h3 className="text-center font-semibold text-2xl">Or Online:</h3>
           <br />
           <div
             className="
@@ -68,16 +68,16 @@ function HeroSection() {
               Find affordable storage here
             </h1>
             <br />
-            <h3 className="text-center text-2xl mb-1">Rent By Phone:</h3>
+            <h3 className="text-center font-semibold text-2xl mb-1">Rent By Phone:</h3>
             <a
-              className="text-center text-2xl font-medium text-emerald-900"
+              className="text-center text-2xl font-medium text-[#394EA1]"
               href="tel:+1-845-594-4064"
             >
               <h2>(845) 594-4064</h2>
             </a>
           </div>
         </div>
-        <h3 className="text-center text-2xl ">Or Online:</h3>
+        <h3 className="text-center font-semibold text-2xl ">Or Online:</h3>
         <br />
         <div className="flex flex-col gap-3 text-center grow-0 justify-center items-center w-full">
           <Link
