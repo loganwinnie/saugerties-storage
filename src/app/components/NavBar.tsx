@@ -25,7 +25,7 @@ function NavBar() {
   return (
     <header onClick={()=>clickable ? setOpen(o => !o) : false}  className={`nav-bar sticky top-0 z-20 bg-neutral-100 flex justify-between items-center px-[4%]  ${clickable ? "cursor-pointer" : ""} `}>
       <a href="/#hero-section">
-        <Image className='block' src="./TextMark.svg" width="90" height="100" alt=" Logo" />
+        <Image className='block md:w-36 w-32' src="./S-Lock-Text.svg" width="150" height="100" alt=" Logo" />
       </a>
 
       <nav  className={` ${open ? "block " : "hidden" } bg-neutral-100 md:flex justify-center items-center `}>
@@ -33,11 +33,11 @@ function NavBar() {
         <Link className="nav-link" href="/#hero-section" >Home</Link>
         <Link className="nav-link" href="/#unit-section" >Units</Link>
         <Link className="nav-link" href="/#location-section" >Find Us</Link>
-         <Link className='block border-2 px-2 py-2 text-lg font-semibold rounded-full border-emerald-500 hover:bg-neutral-200' href="/rent">Rent Now</Link>
+         <Link className='block border-2 px-2 py-1 hover:border-[#9BD5EB] text-lg text-zinc-200 font-semibold rounded bg-[#21B2E1] hover:bg-[#9BD5EB] border-zinc-200' href="/rent">Rent Now</Link>
         </ul>
       </nav>
 
-      <IoMenu className={`${!clickable ? "invisible" : "block"} md:invisible ${open ? "hidden" : "block"} pointer-events-none`} /> <IoClose className={`${open ? "block" : "hidden"}  pointer-events-none w-6 h-6`} />
+      <IoMenu className={`${!clickable ? "invisible" : "block"} md:invisible w-6 h-6 ${open ? "hidden" : "block"} pointer-events-none`} /> <IoClose className={`${open ? "block" : "hidden"}  pointer-events-none w-6 h-6`} />
 
     </header>
   );

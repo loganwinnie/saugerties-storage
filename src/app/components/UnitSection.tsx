@@ -5,7 +5,7 @@ const UnitSection = async () => {
 
   return (
 
-    <div className='text-center my-20 md:my-16 mb-10 text-zinc-100 '>
+    <div className='text-center my-20 md:my-16 sm:mt-20 mt-40 mb-10 text-zinc-100 '>
       <h1 className='text-4xl font-medium pb-4'>Units</h1>
       <hr className='h-px bg-slate-300 mb-3' />
       <div id='unit-section' className='w-full flex flex-col md:flex-row flex-grow gap-16 justify-center px-10 text-zinc-900'>

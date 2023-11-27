@@ -10,7 +10,7 @@ function LocationSection() {
         <div className='min-w-sm max-w-lg'>
           <LocationCard
             placeId="ChIJu-UiLl2n3YkRaJYmcWtsOGQ"
-            address="3064 rt9W, Saugerties, NY, 12477"
+            address="3064 Rt 9W, Saugerties, NY, 12477"
             directionsURL="https://www.google.com/maps/dir//saugerties+self+storage/@42.0500179,-74.0400895,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89dda75d2e22e5bb:0x64386c6b71269668!2m2!1d-73.9575829!2d42.0499269?entry=ttu"
             location='3064 Rt 9W'
             units='1 through 300'

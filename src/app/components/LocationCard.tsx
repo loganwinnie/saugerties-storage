@@ -14,7 +14,7 @@ function LocationCard({ placeId, directionsURL, location, address, units }: Loca
     return (
         <div className='card'>
             <h1 className='text-2xl m-1 pt-5 pb-3 font-semibold text-zinc-800'>{location} Location</h1>
-            <p className=' mb-5 text-xl font-bold text-emerald-500 underline bg-zinc-100'>Units {units}</p>
+            <p className=' mb-5 text-xl font-bold text-[#679CEB] underline bg-zinc-100'>Units {units}</p>
             <iframe
                 className='pb-10 px-12 w-full  h-96 w-full rounded'
                 referrerPolicy="no-referrer-when-downgrade"

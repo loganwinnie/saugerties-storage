@@ -46,13 +46,13 @@ function HeroSection() {
               Rent Now
             </Link>
             <Link
-              className="btn-blue bg-emerald-600 hover:bg-emerald-700"
+              className="btn-blue bg-[#8DB2EB] hover:bg-[#9BD5EB]"
               href={"/portal/login"}
             >
               Login
             </Link>
             <Link
-              className="btn-blue bg-emerald-600 hover:bg-emerald-700"
+              className="btn-blue bg-[#8DB2EB] hover:bg-[#9BD5EB]"
               href={"/portal/signup"}
             >
               Sign Up
@@ -63,6 +63,7 @@ function HeroSection() {
       <div className="bg-zinc-100 w-full block md:hidden drop-shadow-xl ">
         <div className="flex flex-row justify-center items-center">
           <div className="p-4 m-3">
+            <h1 className="text-center text-3xl pb-2 font-bold">Saugerties Self Storage</h1>
             <h1 className="text-center text-3xl ">
               Find affordable storage here
             </h1>
@@ -86,13 +87,13 @@ function HeroSection() {
             Rent Now
           </Link>
           <Link
-            className="btn-blue bg-emerald-600 hover:bg-emerald-700 px-16 mx-8"
+            className="btn-blue bg-[#8DB2EB] hover:bg-[#9BD5EB] px-16 mx-8"
             href={"/portal/login"}
           >
             Login
           </Link>
           <Link
-            className="btn-blue bg-zinc-300 hover:bg-emerald-700 w-lg border0-2 border-emerald-400 max-w-lg b-8 mx-8 grow-0"
+            className="btn-blue bg-[#8DB2EB] hover:bg-[#9BD5EB] w-lg border0-2 border-zinc-200 max-w-lg mb-2 mx-8 grow-0"
             href={"/portal/signup"}
           >
             Sign Up
