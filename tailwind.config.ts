@@ -11,7 +11,21 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'green': "#2E5955",
+        'forest': '#112626',
+        'cyan': '#609e99',
+        'white': {
+          100: '#fcf4f1',
+          200: '#f7f0ed',
+          300: '#e8e1df'
+        },
+        'dark': '#2a302b',
+        'gold': '#f2ab3c',
+
+      }
+    },
   },
   plugins: [],
 };

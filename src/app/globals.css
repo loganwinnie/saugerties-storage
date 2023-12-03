@@ -9,27 +9,40 @@
 }
 
 body {
-  background: rgb(14, 14, 22);
-  background: linear-gradient(
-    180deg,
-    rgba(14, 14, 22, 1) 71%,
-    rgba(31, 35, 55, 1) 100%
-  );
+  background: #f7f0ed;
   padding: 1rem;
 }
 
 @layer components {
-  .btn-blue {
-    @apply bg-[#27a9e1] hover:bg-[#9BD5EB] text-white text-xl font-bold py-2 px-5 rounded border-2 border-zinc-200;
+  .btn-main {
+    @apply bg-gold hover:bg-[#9BD5EB] text-forest text-xl font-bold py-2 px-5 rounded border-2 border-zinc-200;
   }
+
+  .btn-secondary {
+    @apply bg-white-300 hover:bg-white-100 text-forest text-xl font-bold py-2 px-5 rounded border-2 border-zinc-200;
+  }
+
+
+  .heading1 {
+    @apply text-forest text-3xl font-bold
+  }
+
+  .heading2 {
+    @apply text-forest text-xl font-semibold
+  }
+
+  .call {
+    @apply text-forest text-2xl font-bold
+  }
+
   .nav-bar {
-    @apply text-center bg-white w-full m-0 p-2  ring-2 ring-black/20 shadow-md;
+    @apply text-center bg-white-100 w-full m-0 p-2  ring-2 ring-black/20 shadow-md;
   }
   .nav-link {
     @apply block py-1 text-lg font-semibold hover:text-[#266EE0] hover:underline;
   }
   .card {
-    @apply border-2 border-zinc-200 text-center rounded bg-white drop-shadow-xl;
+    @apply border-2 border-white-300 text-center rounded bg-white-100 drop-shadow-xl;
   }
 
   .portal {
