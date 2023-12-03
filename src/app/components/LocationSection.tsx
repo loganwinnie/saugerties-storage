@@ -4,10 +4,10 @@ import LocationCard from './LocationCard';
 function LocationSection() {
   return (
     <div className=' my-16 md:mx-0 mx-4 flex flex-col items-center justify-between text-center'>
-      <h1 className='heading1'>Find Us</h1>
-      <hr className='w-screen h-px mb-4 bg-forest' />
+      <hr className='w-screen h-0.5 mb-4 bg-white-300' />
+      <h1 className='heading1'>Find us at one of our locations</h1>
 
-      <div id='location-section' className='flex md:flex-row flex-col gap-8'>
+      <div id='location-section' className='flex md:flex-row flex-col gap-8 mt-8'>
 
         <div className='min-w-sm max-w-lg'>
           <LocationCard

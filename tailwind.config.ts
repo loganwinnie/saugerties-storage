@@ -17,12 +17,15 @@ module.exports = {
         'forest': '#112626',
         'cyan': '#609e99',
         'white': {
-          100: '#fcf4f1',
-          200: '#f7f0ed',
-          300: '#e8e1df'
+          100: '#f7fbfb',
+          200: '#addce6',
+          300: '#DEE1E1'
         },
-        'dark': '#2a302b',
-        'gold': '#f2ab3c',
+        'dark': '#2d3131',
+        'accent': {
+          100: '#009271',
+          200: '#2f8d56'
+        },
 
       }
     },
