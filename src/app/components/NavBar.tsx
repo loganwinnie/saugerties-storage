@@ -33,21 +33,21 @@ function NavBar() {
     {/* Bar View */}
     <div className='hidden md:flex flex-col md:flex-row gap-2 font-bold'>
       <Link onClick={toggleMenu} href="/#header">Home</Link>
-      <Link onClick={toggleMenu} href="/#header">Units</Link>
-      <Link onClick={toggleMenu} href="/#header">Location</Link>
+      <Link onClick={toggleMenu} href="/#unit-section" >Units</Link>
+      <Link onClick={toggleMenu} href="/#location-section">Location</Link>
     </div>
 
-    <Link onClick={toggleMenu} className='hidden md:block mx-8 py-2 px-4  bg-gold font-bold text-dark rounded-md' href="#header">Rent Now</Link>
+    <Link onClick={toggleMenu} className='hidden md:block mx-8 py-2 px-4 btn-main' href="/rent">Rent Now</Link>
 
     {/* Dropdown View */}
     <div className={`${open ? "flex" : "hidden"} pt-2 flex-col flex-row md:hidden md:items-center gap-2 font-bold`}>
       <div className='flex md:hidden flex-col md:flex-row gap-4'>
         <Link onClick={toggleMenu} href="/#header">Home</Link>
-        <Link  onClick={toggleMenu} href="/#header">Units</Link>
+        <Link  onClick={toggleMenu} href="/#unit-section">Units</Link>
         <Link  onClick={toggleMenu} href="/#header">Location</Link>
       </div>
 
-        <Link  onClick={toggleMenu} className='block md:hidden mt-2 p-3 bg-gold font-extrabold text-xl text-dark rounded-b-md border-t-2 border-white-300' href="#header">Rent Now</Link>
+        <Link  onClick={toggleMenu} className='block md:hidden mt-2 p-3 bg-accent-100 active:bg-accent-200 extrabold text-xl text-white-100 rounded-b-md border-t-2 border-white-300' href="#header">Rent Now</Link>
     </div>
 
     </header>

@@ -16,7 +16,7 @@ function ImageCarousel() {
 
     useEffect(() => {
         resetTimeout()
-        timeout.current = setTimeout(changeImage, 5000)
+        timeout.current = setTimeout(changeImage, 10000)
         return () => {
             resetTimeout()
         }
@@ -33,7 +33,7 @@ function ImageCarousel() {
   }
     return (
         <>
-         <Image onClick={changeImage} className='w-full h-full object-cover transition ease duration-1000 delay-100'  width="200" height="100" alt='header Image' src={carouselImages[currentImage]}/>
+         <Image onClick={changeImage} className='w-full h-full object-cover transition ease duration-1000 delay-100'  width="600" height="400" alt='header Image' src={carouselImages[currentImage]}/>
         </>
     )
 }

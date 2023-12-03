@@ -30,7 +30,7 @@ function UnitsCard({ unit }: Params) {
       <Image className='center w-auto h-auto' width={150} height={150} src={unit.image} alt={`${unit.type} image`} />
 
       <Link className='btn-main my-8' href={"/rent"}>Rent Now</Link>
-      <h2 className='font-semibold text-3xl mb-4 px-20 text-zinc-900'><sup className='font-medium text-cyan'>$</sup>{unit.price}<sub className='font-medium text-xl bottom-0.5'>/month</sub></h2>
+      <h2 className='font-semibold text-3xl mb-4 px-20 text-zinc-900'><sup className='font-medium text-accent-100'>$</sup>{unit.price}<sub className='font-medium text-xl bottom-0.5'>/month</sub></h2>
     </div >
   );
 }

@@ -13,8 +13,8 @@ function UnitWarning({ close }: ParamsInterface) {
         <p className='text-center text-xl  mb-8'>Units 1 through 300 are located at our 3064 Rt 9W location.</p>
         <p className='text-center text-xl pb-12'>Units 301+ are located at our 998 Kings Highway location.</p>
         <p className='text-center text-md pb-20'>Shipping containers 290 - 301 are all located at our 9W location</p>
-        <button className='btn-blue ' onClick={close}>Close</button>
-        <Link className='btn-blue bg-zinc-300 hover:bg-zinc-100 text-zinc-900 mt-4 mx-20 text-center' href="/#location-section" >Directions</Link>
+        <button className='btn-main ' onClick={close}>Close</button>
+        <Link className='btn-secondary mt-4 mx-20 text-center' href="/#location-section" >Directions</Link>
     </div>
   )
 }

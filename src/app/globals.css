@@ -9,13 +9,14 @@
 }
 
 body {
-  background: #f7f0ed;
+  background: #F7FBFB;
   padding: 1rem;
+  scroll-behavior:smooth 
 }
 
 @layer components {
   .btn-main {
-    @apply bg-gold hover:bg-[#9BD5EB] text-forest text-xl font-bold py-2 px-5 rounded border-2 border-zinc-200;
+    @apply bg-accent-100 hover:bg-accent-200 text-white-100 text-xl font-bold py-2 px-5 rounded border-2 border-zinc-200;
   }
 
   .btn-secondary {
@@ -46,6 +47,6 @@ body {
   }
 
   .portal {
-    @apply w-screen h-screen;
+    @apply pt-8 w-screen h-screen;
   }
 }
