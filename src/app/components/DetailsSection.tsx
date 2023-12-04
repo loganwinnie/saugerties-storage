@@ -2,7 +2,7 @@ import React from "react";
 
 function DetailsSection() {
     return (
-        <div className='mt-8 md:mt-0 text-center mb-8'>
+        <div className='mt-8 md:mt-0 text-center mb-8 drop-shadow-2xl'>
             <hr className='w-screen h-0.5 mb-4 bg-white-300' />
             <h1 className='heading1'>Why rent with us</h1>
             <div>
@@ -13,15 +13,15 @@ function DetailsSection() {
                     </div>
                     <div className="card max-w-lg  px-20 py-4">
                         <h2 className="heading2">Guaranteed Rate</h2>
-                        <p>Unlike the big guys, our unit rate is guaranteed to stay the same for at least a year after rental.</p>
+                        <p>Unlike the big guys, our unit rates are guaranteed to stay the same for at least a year after rental.</p>
                     </div>
                     <div className="card max-w-lg  px-20 py-4">
                         <h2 className="heading2">Quick Signup</h2>
-                        <p>Rent a unit in the matter of minutes right online.</p>
+                        <p>Rent a unit in a matter of minutes right online.</p>
                     </div>
                     <div className="card max-w-lg  px-20 py-4">
-                        <h2 className="heading2">Connivent Locations</h2>
-                        <p>With 2 locations in the Saugerties area pick the one that is best for you.</p>
+                        <h2 className="heading2">Convenient Locations</h2>
+                        <p>With 2 locations in the Saugerties area, pick the one that is best for you.</p>
                     </div>
                 </div>
             </div>
