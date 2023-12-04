@@ -5,7 +5,7 @@ import ImageCarousel from "./ImageCarousel";
 
 function HeroSection() {
   return (
-    <div className="w-full mt-20 lg:flex text-green text-left drop-shadow-2xl">
+    <div className="w-full mt-20 lg:flex text-green text-left ">
       <div className="my-8 md:px-4 px-4 flex flex-col items-center justify-center gap-4">
         <h2 className="heading1 md:whitespace-nowrap">Affordable and Convenient Storage is What We Do</h2>
         <h3 className="heading2 text-center">Guaranteed rate for first year of your rental</h3>
