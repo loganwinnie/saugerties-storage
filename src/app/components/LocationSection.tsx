@@ -3,7 +3,7 @@ import LocationCard from './LocationCard';
 
 function LocationSection() {
   return (
-    <div className=' my-16 md:mx-0 mx-4 flex flex-col items-center justify-between text-center'>
+    <div className=' my-16 md:mx-0 mx-4 flex flex-col items-center justify-between text-center drop-shadow-2xl'>
       <hr className='w-screen h-0.5 mb-4 bg-white-300' />
       <h1 className='heading1'>Find us at one of our locations</h1>
 
